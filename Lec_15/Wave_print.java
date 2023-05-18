@@ -1,4 +1,4 @@
-package Lec_14;
+package Lec_15;
 
 public class Wave_print {
     public static void main(String[] args) {
