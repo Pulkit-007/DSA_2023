@@ -12,7 +12,7 @@ public class Subarray_product_less_than_k {
         int ei=0;
         int p=1;
         int ans=0;
-        while(ei<arr.length)
+        while(ei<arr.length && si<=ei)
         {
             //growing
             p*=arr[ei];
