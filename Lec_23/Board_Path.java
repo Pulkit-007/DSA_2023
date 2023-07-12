@@ -16,8 +16,11 @@ public class Board_Path {
         {
             return;
         }
-        Board_Path(n,curr+1,ans+1);
-        Board_Path(n,curr+2,ans+2);
-        Board_Path(n,curr+3,ans+3);
+        // Board_Path(n,curr+1,ans+1);
+        // Board_Path(n,curr+2,ans+2);
+        // Board_Path(n,curr+3,ans+3);
+        for (int dice = 1; dice <= 3; dice++) {
+			BoardPath(n, curr + dice, ans + dice);
+		}
     }
 }
