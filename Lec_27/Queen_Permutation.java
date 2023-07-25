@@ -4,7 +4,7 @@ public class Queen_Permutation {
     public static void main(String[] args) {
         int n=4;//boxes
         int tq=2;
-        boolean [] board=new boolean[n];//ek array le liya queen bethi hai ya nhi check karne ke liye by default false
+        boolean [] board=new boolean[n];  //ek array le liya queen bethi hai ya nhi check karne ke liye by default false
         Permutation(board,tq,0,"");
 
     }
