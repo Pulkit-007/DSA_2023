@@ -5,6 +5,7 @@ public class Coin_Permutation {
     public static void main(String[] args) {
         int [] coin={2,1,3,5};
         int amount=4;
+        Permutation(coin,amount,"");
 
     }
     public static void Permutation(int [] coin,int amount,String ans)
